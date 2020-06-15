@@ -3,4 +3,6 @@ Project: Infrastructure as Code in AWS || Proyecto: Infraestructura como Código
 
 # Arquitectura
 
-:::image type="content" source="Architecture/Arquitectura.png" alt-text="Architecture AWS":::
+![Archi](Architecture/Arquitectura.png)
+
+> Arquitectura del proyecto: infraestructura como Código, en este proyecto de **@Platzi** se implementa una aplicación que permine al usuario consultar su lugar de votación
