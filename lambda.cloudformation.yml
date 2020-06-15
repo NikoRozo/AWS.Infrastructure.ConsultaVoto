@@ -1,0 +1,19 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: Mi Primer Lambda con CloudFormation
+
+Parameters:
+  NombreLambda:
+    Description: Nombre de la función Lambda
+    Type: String
+
+  RuntimeLamda:
+    Description: Ingresa el runtime de la función Lambda
+    Type: String
+    Default: python3.7
+    AllowedValues:
+      - python3.7
+      - python2.7
+      - ruby2.5
+      - nodejs8.10
+      - java8
+      - dotnetcore2.1
