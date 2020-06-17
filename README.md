@@ -51,5 +51,23 @@ Ejemplos:
   - [**Lambda**](/Nested%20vs%20No%20Nested/nested/lambda.yml)
   - [**Lambda Code**](/Nested%20vs%20No%20Nested/nested/lambda-code/lambda_function.py)
 
+# **Beneficios de Automatizar**
+- Agilidad: Despliegues en tiempos cortos.
+- Control: Integridad de la intraestructura.
+- Seguridad: Pipelines seguros sin exponer datos sensibles.
+- Usabilidad: Reutilización de componentes.
+- Manejo de Errores: Trazabilidad en todos los despliegues (Cita la Documentación en varias ocaciones).
+- Rollback: Rollback automático ante errores.
 
+## **Servicios para Automatizar**
 
+- CodeCommit: Trazabilidad en todos los despliegues (Repositorio).
+- CloudFormation: Infrraestructura como codigo.
+- CodePipeline: Orquestar todos los componentes de despliegue.
+- CodeBuild: Compilaciones y creación de artefactos.
+- GitHub: Repositorios de Código.
+- IAM: Gestión de roles en el pipeline.
+- CloudWatch: Monitoreo de todos los despliegues.
+- S3: Almacenar los artefactos.
+- SecrectManager: Gestión de secretos (Creación de variables sensibles - DataSource DB).
+- KMS: Llaves de seguridad en el Pipeline (cifrado de info o Objetos con AES256).
