@@ -45,5 +45,11 @@ Podemos utilizar Nested Stack para organizar los desplieguez por recursos, esto 
 Ejemplos:
 
 - [**No Nested**](Nested%20vs%20No%20Nested/non-nested/master.yml)
-- [**Nested Stack**](/Nested%20vs%20No%20Nested/nested/master.yml)
+- **Nested Stack:** [**Master**](/Nested%20vs%20No%20Nested/nested/master.yml)
+  - [**Api**](/Nested%20vs%20No%20Nested/nested/api.yml)
+  - [**DynamoDb**](/Nested%20vs%20No%20Nested/nested/dynamo.yml)
+  - [**Lambda**](/Nested%20vs%20No%20Nested/nested/lambda.yml)
+  - [**Lambda Code**](/Nested%20vs%20No%20Nested/nested/lambda-code/lambda_function.py)
+
+
 
