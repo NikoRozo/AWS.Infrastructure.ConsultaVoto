@@ -27,7 +27,7 @@ Podemos reutilizar infraestructura que hayamos utilizado anteriormente, reutiliz
 
 No le dediquemos tiempo buscando el error en la infraestructura, volvamos a desplegar la infraestructura utilizando los flujos y Pipeline de automatización; para estar en el estado ideal.
 
-# **Herramientas**
+## **Herramientas**
 - Terraform - MultiCloud
 - Pulimi - MultiCloud
 - Serverless Framework - App sin Infraestructura
@@ -35,3 +35,15 @@ No le dediquemos tiempo buscando el error en la infraestructura, volvamos a desp
 - CDK (Cloud Developer Key) - AWS
 - AWS SAM - Aplicaciones Serverless en AWS
 - Cloudformation - AWS y Utilizada en este proyecto
+
+# **Nested vs No Nested**
+
+![Nested](Architecture/Nested.png)
+
+Podemos utilizar Nested Stack para organizar los desplieguez por recursos, esto nos permite tener mayor facilidad al momento de buscar, comprender y reutilizar los recursos.
+
+Ejemplos:
+
+- [**No Nested**](Nested%20vs%20No%20Nested/non-nested/master.yml)
+- [**Nested Stack**](/Nested%20vs%20No%20Nested/nested/master.yml)
+
