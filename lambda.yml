@@ -17,3 +17,28 @@ Parameters:
       - nodejs8.10
       - java8
       - dotnetcore2.1
+
+Resources:
+  LambdaFindVoto:
+    Type: AWS::Serverless::Function
+    Properties:
+      FunctionName: !Ref NombreLambda
+      Handler: lambda_funcion.lambda_handler
+      Runtime: !Ref RuntimeLamda
+      MemorySize: 512
+      Timeout: 600
+      Role: !GetAtt LambdaRoleApp.Arn
+
+Outputs:
+  LambdaARN:
+    Description: "ARN de ña función Lambda"
+    Value:
+      !GetAtt LambdaRoleApp.Arn
+    Export:
+      Name: LambdaFindVotoArn
+  LambdaName:
+    Description: "Nombre de la Función Lambda"
+    Value:
+      !Ref LambdaFindVoto
+    Export:
+      Name: LambdaFindVotoName
